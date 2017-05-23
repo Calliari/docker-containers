@@ -1,6 +1,7 @@
 
-# For using it you do
+# For using it you do 
 
+This command is for ubuntu if you are haveing permissions errors
 ```
 sudo -i
 ```
