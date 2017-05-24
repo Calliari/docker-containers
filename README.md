@@ -1,7 +1,7 @@
 
 # For using it you do 
 
-This command is for ubuntu if you are haveing permissions errors
+This command is for ubuntu if you are haveing permissions errors "acting as a root"
 ```
 sudo -i
 ```
