@@ -29,18 +29,29 @@ sudo ifup docker0
 # Info about how to use this container
 
 * Just pull the container from this repo
-``` docker pull caliari/ubuntu-apache ```
+
+``` 
+docker pull caliari/ubuntu-apache 
+```
 
 * The the image name and the image ID
-``` sudo docker images ```
+
+``` 
+sudo docker images 
+```
 
 * Grab the image ID from this repo "caliari/ubuntu-apache"  and replace the imageID
-``` sudo docker run --net=host -d -t imageID ```
+
+``` 
+sudo docker run --net=host -d -t imageID 
+```
 
  * To check if the apache2 is running correctly just go to you browser
+
 type ``` http://development.local ``` 
 
 ## To check if the apache2 is running correctly just go to you browser
+
 type http://development.local
 
 ================== END ===============
