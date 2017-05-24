@@ -25,25 +25,28 @@ iface docker0 inet static
 sudo ifup docker0
 ```
 
-## Run this CMD to build the container
 
-```
-sudo docker build -t apache-a . 
-```
-## Run this CMD if you want to get the image ID
+# Info about how to use this container
 
-```
-sudo docker images
-```
+* Just pull the container from this repo
+``` docker pull caliari/ubuntu-apache ```
 
-## Run this CMD to run the image that was built
-```
-sudo docker run  --net=host -d -t apache-a
-```
+* The the image name and the image ID
+``` sudo docker images ```
+
+* Grab the image ID from this repo "caliari/ubuntu-apache"  and replace the imageID
+``` sudo docker run --net=host -d -t imageID ```
+
+ * To check if the apache2 is running correctly just go to you browser
+type ``` http://development.local ``` 
+
 ## To check if the apache2 is running correctly just go to you browser
 type http://development.local
 
-## …or create a new repository on the command line
+================== END ===============
+
+
+## If you want to create a new repository from the command line
 
 ```
 sudo -i 
