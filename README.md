@@ -48,10 +48,6 @@ sudo docker run --net=host -d -t imageID
 
  * To check if the apache2 is running correctly just go to you browser
 
-type ``` http://development.local ``` 
-
-## To check if the apache2 is running correctly just go to you browser
-
 type http://development.local
 
 ================== END ===============
