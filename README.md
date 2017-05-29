@@ -53,7 +53,7 @@ http://development.local
 ================== END ===============
 
 
-## If you want to create a new repository from the command line
+## If you want to create a new git repository from the command line
 
 ```
 sudo -i 
@@ -64,3 +64,10 @@ git commit -m "first commit"
 git remote add origin https://github.com/Calliari/simple-docker-apache.git
 git push -u origin master
 ```
+
+## If you want to create a new docker repository from the command line
+
+```
+
+```
+
