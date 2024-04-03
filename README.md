@@ -50,6 +50,5 @@ docker --version
 
 
 References and Authors
-
-https://docs.docker.com/
-https://docs.docker.com/reference/cli/docker/container/run/
+- https://docs.docker.com/
+- https://docs.docker.com/reference/cli/docker/container/run/
