@@ -1,12 +1,12 @@
-How to use a docker contatiner
+How to use a docker container
 
-In this repo there contatiners for diffent purposes and tests
+In this repo there containers for different purposes and tests
 
 Clone this repo, change to the directory where the Dockerfile is sitting and spin up the container.
 
 ### Sample useful docker commands
 ```
-docker build -t friendlyname .                # Create image using this directory's Dockerfile with a tag "friendlyname"
+docker build -t friendlyname .                # Create an image using this directory's Dockerfile with the tag "friendlyname"
 docker run -p 4000:80 friendlyname            # Run "friendlyname" mapping port 4000 to 80
 docker run -d -p 4000:80 friendlyname         # Same thing, but in detached mode
 docker run --name server1 --hostname server1  # Run the container with name "server1" and add the hostname to the container as "server1"
@@ -21,7 +21,7 @@ docker rmi <imagename>                        # Remove the specified image from 
 docker rmi $(docker images -q)                # Remove all images from this machine
 docker login                                  # Log in this CLI session using your Docker credentials
 docker tag <image> username/repository:tag    # Tag <image> for upload to registry
-docker push username/repository:tag           # Upload tagged image to registry
+docker push username/repository:tag           # Upload a tagged image to a registry
 docker run username/repository:tag            # Run image from a registry
 ```
 
@@ -52,3 +52,4 @@ docker --version
 References and Authors
 
 https://docs.docker.com/
+https://docs.docker.com/reference/cli/docker/container/run/
