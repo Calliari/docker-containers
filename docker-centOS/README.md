@@ -17,7 +17,12 @@ Build the images and run the container "one go"
 docker build -t centos7 ./ && docker run --name centos7 -it -d centos7
 ```
 
-Connect to the container 
+Restart the conatiner if it's "Exited": docker ps -a
+```
+docker restart centos7
+```
+
+Connect to the container
 ```
 docker exec -it centos7 bash
 ```
