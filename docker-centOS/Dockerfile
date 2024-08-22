@@ -19,6 +19,8 @@ RUN yum -y install openssl ccrypt nc epel-release python3 && \
     yum clean all && rm -rf /var/cache/yum
 
 
+EXPOSE 80
+
 VOLUME [ "/sys/fs/cgroup" ]
 ENTRYPOINT ["tail"]
 CMD ["-f","/dev/null"]
