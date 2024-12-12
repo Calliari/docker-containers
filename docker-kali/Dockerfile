@@ -3,7 +3,9 @@
 # https://www.kali.org/docs/containers/using-kali-docker-images/
 FROM kalilinux/kali-rolling
 
-# installing the 'kali-linux-headless' is going to take time aprox (2 hours)
+# https://www.kali.org/docs/installation/installation-sizes/
+# installing the 'kali-tools-top10' size aprox (2 GB)
+# installing the 'kali-linux-headless' size aprox (5 GB)
 RUN apt update && apt -y install kali-linux-headless
 
 ENTRYPOINT ["tail", "-f", "/dev/null"]
